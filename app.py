@@ -64,10 +64,3 @@ if st.button("Predict Segment"):
         "Income": [income],
         "Total Spending": [spending]
     })
-
-    st.download_button(
-        "📥 Download Report",
-        result.to_csv(index=False),
-        "customer_segment_report.csv",
-        "text/csv"
-    )
