@@ -114,10 +114,8 @@ The dataset contains customer information such as age, annual income, spending b
 
 | Customer Type | Suggested Action | 
 |----------------|-----------------| 
-| 💎 **Premium Customers** | High-value customer with strong engagement and purchasing behavior.
-Ideal for loyalty rewards, premium bundles, and personalized recommendations. | 
-| 🚨 **At-Risk Customers** | Low-value customer with browsing-oriented behavior and weaker conversion. 
-Use discounts, re-engagement campaigns, and conversion-focused offers. |
+| 💎 **Premium Customers** | High-value customer with strong engagement and purchasing behavior. Ideal for loyalty rewards, premium bundles, and personalized recommendations. | 
+| 🚨 **At-Risk Customers** | Low-value customer with browsing-oriented behavior and weaker conversion. Use discounts, re-engagement campaigns, and conversion-focused offers. |
 
 ----
 
