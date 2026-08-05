@@ -17,11 +17,14 @@ Marketing
 
 The objective of the project is to build a unsupervised machine learning system that automatically segments customers into premium and risky based on their demographic information, purchasing patterns, and engagement metrics.
 
+----
+
 ## 📊 Dataset Overview
 [Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 The dataset contains customer information such as age, annual income, spending behavior, purchase frequency, website interactions, and recency of purchases.
 
+----
 
 ## 🛠️ Tech Stack
 
@@ -31,6 +34,8 @@ The dataset contains customer information such as age, annual income, spending b
 * Scikit-Learn
 * Joblib
 * Streamlit
+
+----
 
 ## 📈 Data Visualization
 
@@ -91,58 +96,30 @@ The dataset contains customer information such as age, annual income, spending b
 <img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/pca_customer_segments_k2.png" width="100%">
 
 16. **Customer Segments**
-<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/pca_customer_segments_k2.png" width="100%">
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/customer_segments.png" width="100%">
 
-## 🔄 Workflow
+----
 
-### 1. Data Analysis
+### 🏆 Final Outcome 
 
-* Performed Exploratory Data Analysis (EDA) to understand customer behavior.
-* Analyzed customer demographics and purchasing patterns.
-* Identified missing values and outliers.
-* Studied feature distributions and correlations.
+- **Best-performing algorithm:** K-Means Clustering 
+- **Optimal clusters selected:** **2** 
+- **Customer segments successfully identified** 
+- **Business-friendly customer profiles generated** 
+- **Ready for marketing and retention strategies**
 
-### 2. Feature Engineering
-
-* Selected business-relevant customer attributes.
-* Created aggregated spending metrics.
-* Scaled numerical features using StandardScaler and Encoded categorical features using Onehotencoder.
-* Prepared data for clustering algorithms.
-
-### 3. Model Training
-
-Implemented and evaluated clustering techniques:
-
-* K-Means Clustering
-* Elbow Method for optimal cluster selection
-* Cluster Profiling and Interpretation
-
-### 4. Model Optimization
-
-* Determined the optimal number of customer segments.
-* Fine-tuned feature selection and preprocessing steps.
-
-### 5. Deployment
-
-* Saved the trained clustering model using Joblib.
-* Built a Streamlit application for real-time customer segmentation and cluster prediction.
-
-## 📈 Results Summary
-
-| Model              | Status                  |
-| ------------------ | ----------------------- |
-| K-Means Clustering | 🏆 Champion Model       |
-| Optimal Clusters   | Successfully Identified |
-| Customer Profiling | Completed               |
+----
 
 ## 📊 Customer Segments Generated
 
-The system automatically groups customers into segments such as:
-* High-Value Customers 💎
-* Loyal Customers 🤝
-* Moderate Spenders 🛒
-* Low-Engagement Customers 📉
-* Potential High-Value Customers 🚀
+| Customer Type | Suggested Action | 
+|----------------|-----------------| 
+| 💎 **Premium Customers** | High-value customer with strong engagement and purchasing behavior.
+Ideal for loyalty rewards, premium bundles, and personalized recommendations. | 
+| 🚨 **At-Risk Customers** | Low-value customer with browsing-oriented behavior and weaker conversion. 
+Use discounts, re-engagement campaigns, and conversion-focused offers. |
+
+----
 
 ## 🚀 Business Impact
 
