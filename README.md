@@ -2,35 +2,26 @@
 
 ## 🛍️ Business Domain
 
-Customer Relationship Management (CRM)
+Marketing
+
+----
 
 ## 🤔 Problem Statement
 
-Businesses often struggle to understand their diverse customer base and deliver personalized marketing strategies. Treating all customers the same leads to ineffective campaigns, reduced customer engagement, and lower revenue generation.
+* Businesses often struggle to understand their diverse customer base and deliver personalized marketing strategies. Treating all customers the same leads to ineffective campaigns, reduced customer engagement, and lower revenue generation.
+* Accurately segmenting customers based on their demographic and purchasing behavior helps organizations identify high-value customers, improve targeting strategies, and optimize business decisions.
 
-Accurately segmenting customers based on their demographic and purchasing behavior helps organizations identify high-value customers, improve targeting strategies, and optimize business decisions.
+----
 
 ## 🎯 Project Objective
 
-Build an unsupervised machine learning system to automatically segment customers into distinct groups based on demographic information, purchasing patterns, and engagement metrics.
+The objective of the project is to build a unsupervised machine learning system that automatically segments customers into premium and risky based on their demographic information, purchasing patterns, and engagement metrics.
 
 ## 📊 Dataset Overview
+[Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)
 
 The dataset contains customer information such as age, annual income, spending behavior, purchase frequency, website interactions, and recency of purchases.
 
-### Features Used
-
-* Age
-* Annual Income
-* Total Spending
-* Number of Web Purchases
-* Number of Store Purchases
-* Number of Website Visits
-* Recency
-
-### Target Variable
-
-Since this is an **unsupervised learning** project, there is **no predefined target variable**. The system generates customer segments (clusters) automatically.
 
 ## 🛠️ Tech Stack
 
@@ -41,20 +32,9 @@ Since this is an **unsupervised learning** project, there is **no predefined tar
 * Joblib
 * Streamlit
 
-## 📂 Project Structure
+## 📈 Data Visualization
 
-```bash
-├── data/
-├── notebooks/
-│   ├── Data Analysis.ipynb
-│   ├── Feature Engineering.ipynb
-│   └── Model Training.ipynb
-├── models/
-│   ├── kmeans_model.pkl
-│   └── scaler.pkl
-├── app.py
-└── README.md
-```
+
 
 ## 🔄 Workflow
 
@@ -69,7 +49,7 @@ Since this is an **unsupervised learning** project, there is **no predefined tar
 
 * Selected business-relevant customer attributes.
 * Created aggregated spending metrics.
-* Scaled numerical features using StandardScaler.
+* Scaled numerical features using StandardScaler and Encoded categorical features using Onehotencoder.
 * Prepared data for clustering algorithms.
 
 ### 3. Model Training
