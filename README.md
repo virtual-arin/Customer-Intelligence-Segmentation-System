@@ -110,7 +110,7 @@ The dataset contains customer information such as age, annual income, spending b
 
 ----
 
-## 📊 Customer Segments Generated
+## 📊 Customer Segments
 
 | Customer Type | Suggested Action | 
 |----------------|-----------------| 
