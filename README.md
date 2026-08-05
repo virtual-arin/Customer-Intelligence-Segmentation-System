@@ -54,12 +54,44 @@ The dataset contains customer information such as age, annual income, spending b
 - **Recency shows almost no clear relationship with total spending, because recent buyers do not certainly spend more money.**
 <img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/recency_vs_total_spending.png" width="100%">
 
-6. **How do marital status and household composition affect spending?**
-- **Widows show slightly higher spending, while single and married customers have heavily lower total spending.**
-<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/recency_vs_total_spending.png" width="100%">
+6. **What is the distribution of marital status with respect to spending?**
+- **Widows show slightly higher spending, while single and married customers have heavily lower total spending. The marital status column has some invalid data also.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/total_spending_by_marital_status_eda.png" width="100%">
 
+7. **Are there distinct age groups with different purchasing patterns?**
+- **Among all age group 70+ are spending the highest on average, then 60-69 and then 30-39.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/average_total_spending_by_age_group.png" width="100%">
 
+8. **Do customers who accepted previous campaigns spend more or buy differently?**
+- **Customers who accepted more campaigns consistently show much higher total spending than those who accept none.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/spending_vs_campaign_acceptance.png" width="100%">
 
+9. **What features are highly correlated, and which may be redundant for clustering?**
+- **People with higher incomes spend more money overall and buy more from catalogs and as customers tend to buy similar amounts across all product types, tracking every single category will be like repeating the same information.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/correalation_heatmap(EDA).png" width="100%">
+
+10. **How do marital groups affect spending?**
+- **Everyone mostly spends small amounts. widow spend the most on average. but, a few single and partnered people spend the highest amounts overall.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/total_spending_by_marital_status.png" width="100%">
+
+11. **Checking distribution of some important columns to check skewness before log transformation**
+- **Important columns like Income, MntWines, MntMeatProducts, MntGoldProds and Web_Visit_to_Purchase_Ratio have extreme outliers and data is right skewed. So, we will perform log transformation to reduce right skewness.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/distribution_of_important_columns_before_log_transformation.png" width="100%">
+
+12. **Checking distribution of some important columns to check skewness after log transformation**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/distribution_of_important_columns_after_log_transformation.png" width="100%">
+
+13. **Feature Correlation Heatmap**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/feature_correlation_heatmap.png" width="100%">
+
+14. **Clustering Evaluation: Elbow Method and Silhouette Analysis**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/elbow_and_silhouette_plots.png" width="100%">
+
+15. **Customer Segmentation Analysis**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/pca_customer_segments_k2.png" width="100%">
+
+16. **Customer Segments**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/pca_customer_segments_k2.png" width="100%">
 
 ## 🔄 Workflow
 
