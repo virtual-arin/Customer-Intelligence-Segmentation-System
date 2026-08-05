@@ -34,6 +34,31 @@ The dataset contains customer information such as age, annual income, spending b
 
 ## 📈 Data Visualization
 
+1. **What is the overall distribution of customer income, and are there extreme outliers that could distort clustering?**
+- **Income is mostly clustered around 50,000, but a massive outlier above 600,000 could heavily misinterpret clustering results.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/income_distribution_and_outlier.png" width="100%">
+
+2. **How does spending behavior vary across product categories?**
+- **Customers spend the most on wines and meats, while spending very little on fruits and sweet products.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/average_spending_by_product_category.png" width="100%">
+
+3. **Are customers with higher income actually spending more?**
+- **Total spending strongly increases as income grows, while a few extreme high-income outliers spend very little.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/income_vs_total_spending.png" width="100%">
+
+4. **Which purchase channel is most associated with total spending?**
+- **In-store purchases are the most frequent channel, then web purchases, and catalog purchases being the lowest that is contributing to purchase.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/average_purchase_by_channel.png" width="100%">
+
+5. **Does recency relate to customer value and engagement?**
+- **Recency shows almost no clear relationship with total spending, because recent buyers do not certainly spend more money.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/recency_vs_total_spending.png" width="100%">
+
+6. **How do marital status and household composition affect spending?**
+- **Widows show slightly higher spending, while single and married customers have heavily lower total spending.**
+<img src="https://github.com/virtual-arin/Customer-Intelligence-Segmentation-System/blob/main/images/recency_vs_total_spending.png" width="100%">
+
+
 
 
 ## 🔄 Workflow
